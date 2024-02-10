@@ -1,5 +1,5 @@
 import express from "express";
-import { sendReservation } from "../Controller/reservation.js";
+import { sendReservation } from "../Controller/reservation";
 const router = express.Router();
 
 router.post("/send", sendReservation);
